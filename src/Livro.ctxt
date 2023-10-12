@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Livro
+comment1.params=titulo\ autor\ isbn
+comment1.target=Livro(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ exibir_info()
+comment2.params=titulo\ autor
+comment2.target=Livro(java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getTitulo()
+comment4.params=
+comment4.target=java.lang.String\ getAutor()
+comment5.params=
+comment5.target=java.lang.String\ getISBN()
+comment6.params=
+comment6.target=boolean\ isEmprestado()
+comment7.params=isEmprestado
+comment7.target=void\ setEmprestado(boolean)
+comment8.params=
+comment8.target=boolean\ reservar()
+comment9.params=
+comment9.target=boolean\ devolver()
+numComments=11
