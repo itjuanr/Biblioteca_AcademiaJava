@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Revista
+comment1.params=titulo\ empresa\ edicao
+comment1.target=Revista(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ exibir_info()
+comment2.params=
+comment2.target=java.lang.String\ getTituloRevista()
+comment3.params=
+comment3.target=java.lang.String\ getEmpresaRevista()
+comment4.params=
+comment4.target=java.lang.String\ getEdicaoRevista()
+comment5.params=
+comment5.target=boolean\ isEmprestadoRevista()
+comment6.params=isEmprestado
+comment6.target=void\ setEmprestadoRevista(boolean)
+comment7.params=
+comment7.target=boolean\ reservar()
+comment8.params=
+comment8.target=boolean\ devolver()
+comment9.params=
+comment9.target=boolean\ imprimir()
+numComments=11

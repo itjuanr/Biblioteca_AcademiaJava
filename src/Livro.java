@@ -1,4 +1,4 @@
-public class Livro
+public class Livro implements Imprimivel
 {
     // vari√°veis de inst√¢ncia - substitua o exemplo abaixo pelo seu pr√≥prio
     private String titulo;
@@ -66,7 +66,7 @@ public class Livro
     
     public String exibir_info(){
         String informacoes = 
-            "T√≠tulo: " + this.getTitulo() + 
+            "TÌtulo: " + this.getTitulo() + 
             ", Autor: " + this.getAutor();
             
         String ISBN = this.getISBN();
@@ -79,9 +79,20 @@ public class Livro
         if(livroEmprestado){
             informacoes = informacoes + " (Emprestado)";
         } else {
-            informacoes = informacoes + " (Dispon√≠vel)";
+            informacoes = informacoes + " (DisponÌvel)";
         }
         
         return informacoes;
+    }
+    
+    @Override
+    public boolean imprimir(){
+        if(isEmprestado()) {
+        System.out.println("Livro est· emprestada, n„o È possÌvel imprimir."); 
+        return false;
+    } else {
+        System.out.println("Livro impressa com sucesso."); 
+        return true;
+    }
     }
 }
